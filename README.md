@@ -5,7 +5,7 @@
 1. Отправить запрос   
 2. Статус код 200  
     
-```json
+```
 pm.test("Статус код 200", function() {
     pm.response.to.have.status(200);
 });     
